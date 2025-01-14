@@ -1,0 +1,33 @@
+Buenas prácticas:
+-   Siempre utilizar las etiquetas HTML como corresponden, y no
+    solo realizar lo más rápido, el contenido debe ser respondido por la etiqueta
+    asignada.
+-   Utilizar </strong> para destacar contenido importante y mantener una correcta
+    semántica.
+-   Utilizar </em> para enfatizar correctamente el contenido y manteniendo una
+    correcta semántica.
+
+Etiquetas
+Imagenes y párrafos podemos agregar un Title el cual al poner el mouse 
+encima veremos el nombre correspondiente.
+
+<hr> = Horizontal 
+</pre> (Pre-Formated) = Si quiero dar saltos de linea este me los va a respetar.
+
+
+</strong> (Importante) = Destaca relevancia, seriedad y aviso principalmente.
+</b> = Sirve para agregar un contenido en negrita
+</i> = Para texto en formato Italic
+</em> = Este formato es para enfatizar
+</small> = Para hacer más pequeño el contenido
+</mark> = Para destacar con color amarillo el contenido
+</del> = Para indicar que es un texto eliminado
+</ins> = Para indicar que es un texto insertado
+</ins> = Para indicar que es un texto insertado
+</sub> = Para destacar el subindice de un texto. Ej: H2O
+</sup> = Para destacar el supindice de un texto. Ej: 2 elevado a 2
+
+
+Extras:
+Para mandar correos utilizamos en la etiqueta <a> 
+?subject='Texto'&body='contenido del gmail automatizado'

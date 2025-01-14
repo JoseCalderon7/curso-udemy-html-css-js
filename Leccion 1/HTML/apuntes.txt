@@ -1,0 +1,11 @@
+HTML = HyperText Markup Language
+URL = Uniform Resource Locator
+Valor a la etiqueta = Existe contenido entre las etiquetas
+UTF-8 = Necesario para soportar caracteres del español
+
+
+<!DOCTYPE html> = Significa que estamos trabajando con la última versión, es decir, HTML5
+
+head = Cabezara
+    title = Título del documento o sección
+body = Cuerpo de la estructura

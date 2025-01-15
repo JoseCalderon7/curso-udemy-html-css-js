@@ -1,7 +1,13 @@
 # Curso de Udemy - FrontEnd Web Developer
-<br>
+
 link: https://www.udemy.com/course/universidad-desarrollo-web-moderno-html-css-javascript-html5-css3/
-<br>
+
 En este repositorio iré realizando la toma de apuntes y avances del curso que estoy realizando.
-<br>
-Además, se encontrarán todos los ejercicios y tareas que debo ir haciendo.
+Además, se encontrarán todos los ejercicios y tareas que debo ir haciendo por lecciones.
+
+
+
+### Lo que utilizaré para este curso.
+
+![Skills](https://skillicons.dev/icons?i=html,css,js)
+

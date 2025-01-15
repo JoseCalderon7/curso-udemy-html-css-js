@@ -1,0 +1,35 @@
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 5px; */
+    padding: 5px;
+}
+
+caption{
+    color: chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    line-height: 80px;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    color: aliceblue;
+    background-color: rgb(42, 33, 155);
+    text-align: start;
+}
+
+/* Reglones pares */
+tr:nth-child(even){
+    background-color: rgba(0, 128, 0, 0.418);
+}
+tr:nth-child(odd){
+    background-color: rgba(0, 89, 255, 0.329);
+}

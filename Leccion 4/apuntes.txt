@@ -1,0 +1,26 @@
+Diseño en los formatos de links.
+
+- link: Es cuando aún no es clickeado y tiene un color natural
+- visited: Cuando ya precionó el link y vuelve a la página se le aplicará otro color
+- hover: Cuando pasamos el mouse sobre el link este cambiará su color.
+- active: Cuando mantenemos el link o lo arrastramos tambien este cambiará de color.
+
+
+En CSS podemos agrupar por similitudes, vale decir,
+a:link, a:visited, a:hover, a:active{
+
+}
+
+Con esto agregamos mejor dinamismo y una correcta forma de visualizar el CSS.
+
+Rutas absolutas:
+Se considera una ruta única, que si cambia esta no podrá funcionar en un futuro.
+- Las utilizamos directamente cuando existen links con rutas especificas y que no cambiarán como tal.
+
+Rutas relativas:
+Utilizar siempre y cuando se encuentren dentro de la misma aplicación.
+
+
+../ = Sube 1 nivel en la carpeta
+../../ = Sube 2 niveles en la carpeta
+y así con las carpetas

@@ -1,0 +1,17 @@
+Tablas
+
+Etiqueta <table> para distinguir una tabla en nuestro HTML
+
+<caption> = Titular
+<tr> = Table Row  / Fila
+<th> = Table Head / Cabecera
+<td> = Table Data / Contenido
+
+border-collapse: collapse; = Hace que la tabla no tenga espacios en su borde.
+border-spacing: 5px; = Hace que exista una separación en cada contenido y cabecera
+
+colspan="" = Sirve para aumentar o tomar más columnas en ese espacio.
+rowspan="" = Sirve para aumentar o tomar más filas en ese espacio.
+
+tr:nth-child(even) = Reglones pares
+tr:nth-child(odd)  = Reglones impares

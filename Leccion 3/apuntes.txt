@@ -1,0 +1,30 @@
+El formato de los colores tenemos varios, estos sean por
+- nombre
+- rgb
+- rgb con transparencia
+- hsl
+- hexadecimal
+
+Los elementos pueden definirse antes de nivel global. 
+Y tendrán prioridad frente al resto.
+
+
+El orden de un contenido va así, y se puede realizar de forma unica
+o para todos los lados, left, righ, top o bottom.
+padding
+border
+margin
+
+
+Orden para escribir código CSS más rápido:
+- margin: alto - derecha - abajo - izquierda
+- margin: alto - izquierda y derecha - abajo
+- margin: alto y abajo - izquierda y derecha
+
+- padding: alto - derecha - abajo - izquierda
+- padding: alto - izquierda y derecha - abajo
+- padding: alto y abajo - izquierda y derecha
+
+
+Página para ver paleta de colores.
+https://coolors.co/

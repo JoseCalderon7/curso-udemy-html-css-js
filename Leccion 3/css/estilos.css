@@ -1,0 +1,20 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+p {
+  color: white;
+  background-color: #18314F;
+  padding: 15px;
+  border: 10px solid #3E8989;
+  /* margin: 50px; */
+  /* margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    */
+    /* margin: 20px 10px 20px 10px; */
+    /* margin: 20px 10px; */
+    margin: auto 50px;
+    text-align: center;
+}

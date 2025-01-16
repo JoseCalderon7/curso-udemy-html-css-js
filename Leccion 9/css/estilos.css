@@ -1,0 +1,49 @@
+header{
+    color: rgb(221, 80, 104);
+    text-align: center;
+    font-size: 20px;
+}
+
+nav{
+    width: 20%;
+    float: left;
+}
+
+nav a{
+    background-color: orange;
+    border-radius: 15px 0px 15px 0px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+
+section{
+    float: right;
+    width: 75%;
+    color: purple;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 1px 0px 6px rgb(185, 12, 185);
+    padding: 15px;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    color: blue;
+    box-shadow: inset 5px 0px 5px -5px  blue;
+}
+
+footer{
+    clear: both;
+    padding: 1px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}

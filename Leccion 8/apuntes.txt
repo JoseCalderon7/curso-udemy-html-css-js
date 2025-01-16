@@ -1,0 +1,48 @@
+TIPS: 
+- Para que unicamente se seleccione 1 solo botón de acción debemos establecer el
+  name con el valor que corresponde, es decir, genero para aquellos que sean seleccionables.
+- Cuando a una variable tiene multiples o varias asignaciones se convertirán en un arreglo
+  como tal, visto a futuro en JavaScript.
+
+Para realizar un formato de formulario debemos utilizar la etiqueta "form" respectivamente.
+
+{
+</label> = Es para los titulos de los campos para el formulario.
+for=""   = Para al clickear el nombre te mande al campo en donde debe llenarse la
+}
+
+{
+<input>  = Es para establecer los distintos formatos que se pueden ingresar en los
+           campos del formulario.
+name="" = Es la forma o el campo en que se enviará a la base de datos (Se ve en la URL).
+id="" = Para poder establecer una guía en los nombres entre sus opciones o campos.
+placeholder="" = Para que dentro del campo se muestre un texto predefinido.
+value="" = Sirve para establecer un valor a la etiqueta.
+required = Significa que es necesario para poder mandar el formulario.
+novalidate  = Para que no se valide nada dentro del formulario.
+step="any" = Para poder recibir cualquier tipo de valor en los "number".
+}
+
+<fieldset> = Para demarcar el espacio que tiene el formulario en nuestro HTML
+
+
+GET  = Podemos visualizar los campos que mandamos en la utilizar.
+POST = No es posible visualizar ningún campo ya que se hace a nivel de servidor.
+
+
+
+Listado de etiquetas por tipo:
+- type="reset" = Para eliminar todo el contenido. (Restablecer)
+- type="text"  = Para aquellos campos que involucra texto.
+- type="number" = Para utilizar unicamente numeros dentro del campo solicitador.
+- type="radio" = Utilizado idealmente para burbujas de selección única.
+- type="checkbox" = Utilizado para selección multiple.
+- <select>     = Para englobar las opciones disponibles.
+    - <option> = Para listar las opciones disponibles de selección.
+- <textarea>   = Para establecer un rango mayor para escribir texto o comentarios.
+- type="hidden" = Muestra escondido el contenido de este apartado.
+
+(
+- readonly="true" = Solamente puede ser observado este no puede ser editado. Se envía al servidor
+- disabled="true" = Se muestra deshabilitado y tampoco se envía al servidor.
+)

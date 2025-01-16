@@ -1,0 +1,22 @@
+DOM = Document Object Model / Objetos de nuestro HTML
+
+La semántica brinda una mejor estructura para leer una página en HTML.
+
+
+<section> = Definen claramente una región de nuestra página HTML.
+<article> = Para definir elementos independientes.
+<aside>   = Utilizada comunmente para barras laterales. 
+            / Sirve tambien para agregar notas y/o información importante.
+<header>  = Para establecer información de la cabezera. (Cabezero)
+<footer>  = Para delimitar la información final de nuestra página. (Pié de página)
+<nav>     = Para las barras de navegación.
+<hgroup>  = Para agrupar etiquetas de h1 - h6.
+
+
+CSS:
+border-radius: 15px 0px 15px 0px; 
+border-radius: SUP DERECHA - SUP IZQUIERDO - INF DERECHO - INF IZQUIEDO;
+
+box-shadow: Eje X - Eje Y - Blur (- Spread) - Color
+Blur = Difuminar
+Spread = Propagar

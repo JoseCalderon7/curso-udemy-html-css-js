@@ -1,0 +1,18 @@
+h1{
+    color: rgb(81, 81, 231);
+    text-align: center;
+}
+
+h2{
+    color: aqua;
+}
+
+p{
+    color: blueviolet;
+}
+
+div{
+    border: 10px solid green;
+    background-color: antiquewhite;
+    text-align: center;
+}

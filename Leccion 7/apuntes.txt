@@ -1,0 +1,28 @@
+Elementos inline
+No crear una nueva línea, sino se aplican en la misma línea que se está trabajando.
+
+Etiqueta:
+<span>
+
+----------------------------------------
+
+Elementos block
+Los elementos en bloque se inician en una nueva línea.
+
+Etiqueta:
+<div> = Se utilizan para distinguir nuevas secciones en el HTML.
+
+Los identificadores como class se pueden aplicar a uno o varios elementos.
+Los identificadores como id no deben aplicarse a más de uno, esto es una mala práctica.
+
+
+Bookmarks o marcador = Podemos dirigir el contenido con links a sus secciones.
+ EJ: ponemos un id='java' en una etiqueta cualquiera, y un <a href="#java"> el cual
+ nos va a redirigir hacia ese espacio dentro de la hoja HTML.
+
+
+iframe = Es un marco HTML para agregar información dentro. Videos, Web, más info, etc
+
+
+Utilizar display: inline-block es para que aquellas etiquetas de inline acepten tamaños como uno de block
+                  Finalmente es para unir estas caracteristicas principalmente.

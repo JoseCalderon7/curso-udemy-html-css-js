@@ -1,0 +1,34 @@
+Listas no ordenadas:
+
+<ul> = Listas no ordenadas / desordenadas
+<li> = Elemento de la lista
+
+------
+Listas ordenadas:
+
+<ol> = Listas ordenadas
+<li> = Elemento de la lista
+
+------
+Listas de descripción:
+<dl> = description list
+<dt> = description term
+<dd> = description data
+
+
+style="list-style-type: disc; = Para carmbiar el diseño de los puntos.
+::bofore = Antes
+::after  = Despues
+
+
+Podemos agregar contenido antes y despues en las listas.
+
+Lo que muestra el contenido antes.
+ol li::before{
+    content: 'Curso ' counter(contador) ') ';
+}
+
+Lo que muestra el contenido despues.
+ol li::after{
+    content: '. ';
+}

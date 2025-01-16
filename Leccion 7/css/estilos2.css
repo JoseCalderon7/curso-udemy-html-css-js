@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#tituloPrincipal{
+    color: rgb(81, 81, 231);
+    text-align: center;
+    padding: 15px;
+}
+
+h2{
+    color: aqua;
+}
+
+p{
+    color: blueviolet;
+}
+
+.tarjeta{
+    border: 10px solid green;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.titulo{
+    color: rgb(93, 173, 28);
+}

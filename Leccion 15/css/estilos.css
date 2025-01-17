@@ -1,0 +1,32 @@
+
+
+h1{
+    color: crimson;
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgba(128, 128, 128, 0.486);
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-decoration: overline underline;
+}
+
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 80%;
+    background-color: rgba(25, 25, 122, 0.404);
+    border-radius: 15px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    direction: ltr;
+    text-indent: 30px;
+    line-height: 1.5;
+    white-space: normal;
+    text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.685);
+    /* white-space: nowrap; */
+    /* text-decoration: underline; */
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    margin: 20px ;
+}
+
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid rgba(34, 34, 180, 0.671);
+    margin: 30px;
+    background-color: rgba(0, 128, 0, 0.438);
+    max-width: 300px;
+    box-sizing: border-box;
+    /* margin: 0px; */
+    /* max-height: 100px; */
+    /* outline: 10px solid yellow; */
+    /* outline-offset: 10px; */
+}
+/* 
+p.interno{
+    margin: inherit;
+} */
+
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid rgba(34, 34, 180, 0.671);
+    margin: 20px;
+    background-color: rgba(0, 128, 0, 0.438);
+    max-width: 300px;
+    box-sizing: border-box;
+}

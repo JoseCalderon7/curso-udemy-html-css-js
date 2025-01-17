@@ -1,0 +1,9 @@
+text-transform: ; = Para cambiar los TAMAÑO de las PLABRAS.
+letter-spacing: ; = Para SEPARAR las LETRAS unas a otras.
+word-spacing:  ;  = Para SEPARAR las PALABRAS unas a otras.
+
+text-decoration: overline underline; = Subrayado arriba y abajo del campo.
+text-decoration: line-through;  = Para subrayar el contenido.
+text-indent: 30px;          = Para separar el primera linea (Sangría).
+line-height: 3;         = Para aumentar la separacion de lineas (Interlineado).
+white-space: nowrap;    = Para que no existan saltos de línea.

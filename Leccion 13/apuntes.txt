@@ -1,0 +1,8 @@
+En general podemos trabajar con distintos formatos de colores.
+- hsl
+- rgb
+- rgba
+- hexadecimal
+- nombre
+- hwb
+etc.--

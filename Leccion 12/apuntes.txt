@@ -1,0 +1,17 @@
+MARGIN y PADDING no se les puede asignar un color, solamente al BORDER.
+
+El outline no suma valor o no es referente frente a un padding, margin o border.
+Es decir, no es parte de la suma, se puede aplicar todo tipo de border.
+
+outline = Es un borde que engloba todo.
+outline-offset: 10px; = Separamos con un borde el outline. (Color transparente)
+
+OJO: El outline es posible que se monte sobre otro contenido más arriba.
+
+
+box-sizing: border-box; = Sirve para que al establecer un alto y ancho se mantenga en esas proporciones
+                          incluso restandole al width si es padding o margin superan el valor especificado.
+
+margin: auto = Centra el contenido porque saca de partes iguales para colocarse ordenado.
+inherit      = Es para heredar valores de las etiquetas padre, es decir, su superior.
+

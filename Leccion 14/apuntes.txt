@@ -1,0 +1,17 @@
+background-image: url("/Leccion14/img/fondo.png"); = Para colocar imagenes de fondo
+
+background-repeat: repeat-x; = Para que solo se repita por el eje X.
+background-repeat: repeat-y; = Para que solo se repita por el eje Y.
+background-repeat: no-repeat;= Para que no se repita.
+
+background-position: right top; = Para posicionar la imagen en algún lugar de la pantalla.
+
+background-attachment: scroll;  = Para hacer que la imagen no siga el scroll.
+background-attachment: fixed;   = Se mantiene fija
+
+background = Podemos aplicar todas las propiedades mencionadas, menos el attachment.
+
+EJEMPLO:
+- background: dodgerblue url("/Leccion14/img/fondo.png") no-repeat right top;
+                color               img:url()             repeat    position
+

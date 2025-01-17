@@ -1,0 +1,18 @@
+Tenemos varios formatos de texto que se pueden añadir sin problema alguno a nuestras
+páginas, utilizando font-family respectivamente.
+
+Para los diseños de fuentes se deben importar en la hoja CSS como tal.
+
+TAMAÑOS:
+16px es un tamaño default en los navegadores.
+(16/16) = 1em = Son igual a 16px.
+
+v = viewport / tamaño de la pantalla
+vw = view width (ancho)
+vh = view width (alto)
+
+FORMA CORRECTA DE LLAMAR LAS FUENTES.
+font: font-style - font-variant - font-width - *font-size/line-heigth - *font-family;
+font: italic small-caps bolder 20px Times, sans-serif;
+
+Se pueden modificar y cambiar, pero siempre en ese orden deben mantenerse.

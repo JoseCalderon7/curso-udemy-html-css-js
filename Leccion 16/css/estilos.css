@@ -1,0 +1,37 @@
+h1{
+    color: crimson;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 4px black
+}
+
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+.caja.serif{
+    background-color: purple;
+}
+
+.fuente_times{
+    /* font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold; */
+    /* font-size: 20px; */
+    /* font-size: 20px; */
+    font-size: 2vw;
+    font: italic small-caps bolder 20px Times, sans-serif;
+}
+
+.fuente_giorgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}

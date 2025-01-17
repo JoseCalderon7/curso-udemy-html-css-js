@@ -1,0 +1,29 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+    font-style: normal;
+}
+
+.icono-azul{
+    font-size: 2.5em;
+    color: cornflowerblue;
+    font-style: normal;
+}
+
+.icono-red{
+    font-size: 2.5em;
+    color: rgb(237, 100, 100);
+    font-style: normal;
+}
+
+.icono-verde{
+    font-size: 2.5em;
+    color: rgb(123, 237, 100);
+    font-style: normal;
+}

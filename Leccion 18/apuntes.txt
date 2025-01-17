@@ -1,0 +1,13 @@
+Tipo BLOCK:
+<h1>Título</h1>
+<div></div>
+<p></p>
+<li></li>
+
+Tipos de valores INLINE:
+<a>
+<span>
+
+visibility: hidden; = Podemos esconder el contenido, pero este aún será respetado.
+
+display: none, bloc, inline, flex, grid, flex-box, etc. 

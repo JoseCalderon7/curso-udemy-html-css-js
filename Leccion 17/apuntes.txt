@@ -1,0 +1,20 @@
+Podemos utilizar Boostrap, Google Icons y Ionic para traer y/o utilizar íconos.
+
+Llamamos con un link en ambos casos o instalandolos.
+
+Ejemplos:
+- Boostrap:
+  <span class="bi-alarm icono-red">Alarma</span>
+
+- Google Icons:
+  <span class="material-symbols-outlined" style="vertical-align: bottom;">home</span>
+
+- Ionic Icon:
+  <ion-icon name="heart"></ion-icon>
+
+
+* Utilizar 'style="vertical-align: bottom;"' sirve para que se centren texto e ícono.
+
+Ojo:
+Antes se utilizaba la etiqueta <i> para utilizar los iconos, ahora es <span>
+

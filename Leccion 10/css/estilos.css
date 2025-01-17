@@ -1,0 +1,11 @@
+/* * FORMA PARA AGRUPAR ETIQUETAS HTML EN CSS */
+/* h1, h2, p, div{
+    color: crimson;
+    text-align: center;
+} */
+
+/* * SOLAMENTE FUNCIONARÁ SI TIENE LA ETIQUETA CORRESPONDIENTE 
+*    ES DECIR, NO SIRVE OTRA ETIQUETA PARA ESTE CLASS */
+/* p.centrar{
+    text-align: center;
+} */

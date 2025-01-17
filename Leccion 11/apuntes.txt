@@ -1,0 +1,23 @@
+Diseños en los bordes:
+- solid  = Es un marco sólido que cubrirá todo el bloque.
+- dashed = Son lineas que cubrirán todo el bloque.
+- double = Es para asignar dobles lineas que cubrirán todo el bloque.
+- dotted = Son puntos que cubrirán todo el bloque.
+
+
+MIXTOS:
+
+border-color: red green yellow brown
+border-style: dotted solid dashed double;
+border-width: 10px 5px 3px 2px;
+            - thin / medium / thick
+
+
+ORIENTACIONES x - x - x - x: ARRIBA - DERECHA - ABAJO - IZQUIERDA
+ORIENTACIONES x - x - x: ARRIBA - DERECHA e IZQUIERDA - ABAJO
+ORIENTACIONES x - x : ARRIBA y ABAJO - DERECHA e IZQUIERDA
+
+
+border-radius:
+
+ORIENTACIONES x - x - x - x: ESQ-SUP-IZQ / ESQ-SUP-DER / ESQ-INF-DER / ESQ-INF-IZQ

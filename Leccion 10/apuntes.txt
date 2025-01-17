@@ -1,0 +1,21 @@
+La prioridad entre los ajustes en CSS dentro de HTML es la siguiente:
+
+* Primero es a nivel de LÍNEA, es decir, aquellos que están en la etiqueta con 
+  un style="" serán más importantes que el resto.
+
+* Segundo es a nivel INTERNO, vale decir, entre la etiqueta <head> si se define
+  un estilo, será antes considerado que uno externo.
+
+* Tercero es a nivel de ARCHIVO, vale decir, aquellos que se encuentren en una
+  hoja aparte se podrán ver sus cambios a último nivel.
+
+OJO: 
+- Si colocamos en el ARCHIVO externo un "!important" este tendrá la mayor
+  relevancia para ser mostrador.
+- Además, si colocamos en el <head> el "link:css" después del style en el mismo
+  apartado, vamos a tener relevancia del ARCHIVO externo antes que el style INTERNO.
+
+
+- Los elementos "ID" unicamente se deben aplicar a 1 solo recurso y/o etiqueta.
+- Los elementos con "CLASS" idealmente es para agrupar varias etiquetas con el mismo 
+- cambio de diseño.

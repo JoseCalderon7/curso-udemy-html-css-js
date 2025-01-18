@@ -1,0 +1,44 @@
+Utilizar margin Auto ayuda para centrar los divs devido a que tanto el 
+lado derecho como izquierdo busca la igualdad y se centra el contenido.
+
+Buenas prácticas:
+Utilizar % es buena practica antes que pixeles, ya que al hacer responsive
+el contenido no se va a acomodar, sino que se mantendrá en un tamaño fijo.
+Ahora bien, depende como lo decidamos nosotros ya que si el div debe estar
+fijo o cambiar entre tamaños de la pantalla respectivamente.
+
+Utilizar max-width hará que el contenido se mantenga en su tamaño para ser
+desplegado, pero se acomodará una vez la pantalla sea más pequeño.
+
+Podemos utilizar variaciones, tanto con px, %, vw, etc.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tipos de posicionamiento:
+* static (Estático) = Es el valor default de las etiquetas div 
+                      | NO podemos cambiar el top, right, botom y left / No sirve el absol
+* relative (Relativo) = Se mueve de manera natural en base a su posicion original. 
+                        (Ningún otro bloque tomará su lugar)
+* fixed (Ajustado) = Se ajuste en base a todo el viewport, es decir, toda la pantalla que se encuentra 
+                     y se mantiene fija siempre. (El resto de bloques ignorarán su posición)
+* absolute (Absoluto) = Se ve de forma absoluta cuando existe un elemento padre, sino al <body> principal. 
+                        Se queda donde mismo, no nos sigue en ningún momento. (El que lo contiene no debe 
+                        ser del tipo de posición static, sino lo ignora), también seguirá al padre en caso
+                        que este se mueva como tal.
+* sticky (Pegajoso) = Se posiciona en su lugar, dentro de donde le corresponde. Una vez salimos del viewport 
+                      normal tiende a mantenerse en la posicion que se estableció anteriormente.
+                      Además, si está dentro de pantalla mantiene un estado relativo, y cuando sale de pantalla
+                      se establece como un tipo fixed. (Es una convinación entre relativo y fixed finalmente.)  
+    * IMPORTANTE *
+    - -webkit-sticky (para que funcione correctamente la posición sticky)
+    - sticky no funciona en internet explorer. En el resto sí.
+
+
+z-index = El ejece z es la superposición que podemos obtener, en otras palabras son las capas.
+          el mayor valor de Z es el último en cual se mostrará. Podemos manejar valores positivos y negativos.
+          se agregan de manera automatica unos a otros según los elementos.
+
+Los elementos con párrafos, titulos, div Ó igual a static es igual a = ELEMENTOS NO POSICIONADOS
+Aquellos que le establecemos una posición es igual a = ELEMENTOS POSICIONADOS
+
+el último elemento que sí esté posicionado se verá primero independientemente de colocar z-index o no.

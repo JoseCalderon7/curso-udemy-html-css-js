@@ -1,0 +1,30 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+div.estatico{
+    position: static;
+    padding: 15px;
+    border: 2px solid green;
+    background-color: yellow;
+}
+
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 2px solid green;
+    background-color: rgb(87, 56, 179);
+}
+
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 40px;
+    border: 2px solid pink;
+    background-color: rgb(180, 179, 179);
+    z-index: -1;
+}

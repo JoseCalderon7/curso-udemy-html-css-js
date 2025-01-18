@@ -1,0 +1,23 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+div.relativo{
+    width: 350px;
+    height: 450px;
+    top: 10px;
+    position: relative;
+    background-color: green;
+}
+
+div.absoluto{
+    position: absolute;
+    /* top: 0px; */
+    /* left: 0px; */
+    right: 10px;
+    bottom: 20px;
+    width: 50%;
+    border: 2px solid firebrick;
+    margin: auto;
+}

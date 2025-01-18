@@ -1,0 +1,17 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+div.contenedor{
+    position: relative;
+    border: 3px dashed green;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /* overflow: visible; | PROPIEDAD POR DEFAULT */
+    /* overflow: hidden;  | PARA QUE SE OCULTE TODO EL CONTENIDO */
+    /* overflow: scroll;  | PARA QUE SE MUESTRE TODO EL CONTENIDO DENTRO DE LOS MARGENES */
+    /* overflow: auto; */
+    overflow: auto;
+}

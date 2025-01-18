@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    overflow: auto;
+    border: 3px dashed rebeccapurple;
+}
+
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgba(0, 128, 0, 0.371);
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: greenyellow;
+    border: 1px solid blue;
+    height: 20px;
+    padding: 5px;
+    display: inline-block;
+}

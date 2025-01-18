@@ -41,4 +41,25 @@ z-index = El ejece z es la superposición que podemos obtener, en otras palabras
 Los elementos con párrafos, titulos, div Ó igual a static es igual a = ELEMENTOS NO POSICIONADOS
 Aquellos que le establecemos una posición es igual a = ELEMENTOS POSICIONADOS
 
-el último elemento que sí esté posicionado se verá primero independientemente de colocar z-index o no.
+El último elemento que sí esté posicionado se verá primero independientemente de colocar z-index o no.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Utilidad: overflow sirve para que podamos mostrar o no cuando un contenido se sale de nuestros margenes
+          establecidos. Solamente funciona cuando se especifica un alto en el contenedor.
+
+overflow: visible; | PROPIEDAD POR DEFAULT
+overflow: hidden;  | PARA QUE SE OCULTE TODO EL CONTENIDO
+overflow: scroll;  | PARA QUE SE MUESTRE TODO EL CONTENIDO DENTRO DE LOS MARGENES
+overflow: auto;    | PARA DE MANERA AUTOMATICA HAYA UN SCROLL DONDE SE NECESITE. 
+overflow-x: ;      | PARA LA ORIENTACIÓN DEL EJE X
+overflow-y: ;      | PARA LA ORIENTACIÓN DEL EJE Y
+
+float = Se utiliza para flotar contenido en algún espacio junto a otros contenidos
+        es de uso común y pueden tener varios tipos, es decir, float: left-righ
+        o utilizar clear para eliminar todo cambio y tenga en otro espacio. clear: both;
+
+display: inline-block; = Se utiliza para darle la propiadad de block e inline a cualquier etiqueda
+                         con este podemos aplicarle tamaños como alturas, y demás a un elemento inline,
+                         el cual no acepta ese tipo de cambios, a no ser que utilicemos inline-block
+

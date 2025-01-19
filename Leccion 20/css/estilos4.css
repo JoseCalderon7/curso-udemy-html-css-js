@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgba(128, 128, 128, 0.716);
+    padding: 15px;
+    color: darkblue;
+    text-align: center;
+}
+
+img{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}

@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px dashed rgba(128, 128, 128, 0.716);
+    padding: 15px;
+    color: darkblue;
+}
+
+/* SELECTORES SIN IMPORTAR EL NIVEL */
+div.contenedor.descendiente p{
+    background-color: rgba(57, 165, 57, 0.653);
+}
+
+/* SELECTORES DE HIJO / CHILD DIRECTO */
+div.contenedor.hijo > p{
+    background-color: rgba(49, 12, 199, 0.408);
+}
+
+/* ADYACENTE */
+div.contenedor.adyacente + p{
+    background-color: rgba(165, 57, 57, 0.653);
+}
+
+/* SIBILING (HERMANO) */
+div.contenedor.hermano ~ p{
+    background-color: rgba(57, 165, 145, 0.653);
+}

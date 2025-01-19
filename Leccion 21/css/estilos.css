@@ -1,0 +1,27 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+
+body{
+    /* background: linear-gradient(crimson, rgb(115, 1, 115)); */
+    /* background: linear-gradient(to right, red, blue); */
+    /* background: linear-gradient(black, skyblue, black); */
+    /* background: linear-gradient(to bottom right, crimson, rgb(115, 1, 115) ); */
+    /* background: linear-gradient(145deg, red, blue); */
+    background: radial-gradient(circle, rgb(235, 132, 132), blue);
+    color: #f1faee;
+}
+
+h1{
+    text-align: center;
+}
+
+div.contenedor{
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid skyblue;
+    padding: 15px;
+    text-align: center;
+}

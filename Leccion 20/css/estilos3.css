@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgba(128, 128, 128, 0.716);
+    padding: 15px;
+    color: darkblue;
+    text-align: center;
+}
+
+div.contenedor p::selection{
+    color: red;
+    background-color: yellow;
+}
+
+div.contenedor p::first-line{
+    color: red;
+    font-variant: small-caps;
+}
+
+div.contenedor p::first-letter{
+    font-size: 20px;
+}
+
+div.contenedor p::before{
+    content: "- ";
+}
+
+div.contenedor p::after{
+    content: " -";
+    /* content: url(/); */
+}

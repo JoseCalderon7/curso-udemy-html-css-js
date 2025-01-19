@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgba(128, 128, 128, 0.716);
+    padding: 15px;
+    color: darkblue;
+    text-align: center;
+}
+
+div.contenedor:hover{
+    background-color: rgba(81, 61, 228, 0.433);
+    color: whitesmoke;
+}
+
+div.contenedor.oculto p{
+    display: none;
+}
+
+div.contenedor.oculto:hover p{
+    display: block;
+    background-color: rgba(19, 19, 196, 0.653);
+    padding: 15px;
+}
+
+div.contenedor.primero p:first-child{
+    font-variant: small-caps;
+}

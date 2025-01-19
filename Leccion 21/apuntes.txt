@@ -1,0 +1,16 @@
+Para utilizara los gradientes debemos llamarlos de la siguiente manera:
+
+* background: linear-gradient("dirección", color 1, color 2, *color 3); = Con esto obtenemos un color gradiente.
+* background: radial-gradient("forma / circle", color 1, color 2); = Con esto obtenemos un color gradiente con alguna forma en particular.
+
+- En la dirección podemos colocar "to right" para que se vaya a la derecha el gradiente.
+                              "to bottom right" (Diagonal)
+                                   "145deg" (Degree / Grados)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+text-shadow = Es para poder agregarles sombras a nuestros títulos o texto en general.
+box-shadow  = Para poder cambiar la sombra de los contenedores o elementos.
+
+POSICIÓN PARA LOS "SHADOWS":
+EJE X - EJE Y - BLUR(difuminado) - SPREAD(propagar) - COLOR

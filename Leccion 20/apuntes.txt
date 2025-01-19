@@ -1,0 +1,46 @@
+Los SELECTORES podemos dentro de una clase principal (Padre) llamar a las
+etiquetas o elementos de adentro. Por ejemplo, tenemos un contenedor, y además
+otra clase que se llama descendiente y finalmente la etiqueta <p>, entonces, 
+todo dentro del mismo contenedor y tenga esa etiqueta va a cambiar si así lo decidimos
+- SEA A NIVEL QUE SEA -
+
+SELECTOR:
+* A CUALQUIER NIVEL: Podemos habarcar todos los hijo de descendientes de todo el contenedor.
+      p{}
+* child / HIJO : Podemos solamente utilizar a los hijo directos y NO a los descendientes. 
+    > p{}
+* adyacente  : Para todo aquello (exactamente) despues del contenedor se aplicarán los cambios.
+    + p{}
+* sibiling (Hermano) : Es para que los cambios sean posibles el mismo nivel que el contenedor.
+    ~ p{}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PSEUDO CLASES:
+* div.contenedor.oculto p{}
+    div.contenedor.oculto:hover p{}
+
+* div.contenedor.primero p:first-child{}
+
+Podemos hacer ejecucción de código y hacer varianzas de estos con CSS, mostrar u ocultar
+contenido como queramos. Además, podemos ordenar mejor todo el contenido.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PSEUDO ELEMENTO:
+* ::selection = Podemos utilizar esta propiedad para cambiar los colores.
+                a los elementos de cualquier tipo. (Etiquetas)
+
+* ::first-line{} = Se puede cambiar el formato o cambios en general para la primera línea.
+
+* ::first-letter{} = Podemos cambiar el formato para la PRIMERA letra que aparezca.
+
+* ::before = Podemos agregar contenido antes de todo con esta marca, u otros cambios.
+
+* ::after = Se puede agregar contenido despues sin problemas, u otros cambios.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:hover = Con hover hace referencia a que si pasamos nuestro puntero sobre cierto bloque
+         o elemento el contenido o formato de este puede cambiar sin problema alguno.
+

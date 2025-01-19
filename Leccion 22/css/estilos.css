@@ -1,0 +1,27 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+div.contenedor{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+div.contenedor p{
+    background-color: blue;
+    color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.2em;
+}

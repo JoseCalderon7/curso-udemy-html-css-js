@@ -1,0 +1,59 @@
+Tenemos el display: "Flex" para ordenar contenedores.
+Es bien sabido que esta forma es utilizada muy comunmente en CSS, y es necesario para organizar
+ordenar y/o mostrar estos contenedores.
+
+se llama así:
+
+{
+    display: flex;
+    flex-flow (Sirve para que podamos combinar "direction" y "wrap" juntos)
+}
+
+Tenemos:
+flex-direction
+    - column
+    - row
+    - column-reverse
+    - row-reverse
+
+flex-wrap | wrap (Envolver)
+    - wrap
+    - nowrap
+    - wrap-reverse
+
+justify-content
+    - flex-start
+    - flex-end
+    - center
+    - space-between
+    - space-around
+    - space-evenly
+
+align-item
+    - flex-start
+    - flex-end
+    - center
+    - stretch (estirar)
+
+align-content = Nos permiten ordenar nuestro contenido pero de manera vertical.
+    - flex-start
+    - flex-end
+    - center
+    - space-between
+    - space-around
+    - space-evenly
+
+align-self = Se trabaja de la forma vertical al utilizar esta etiqueta.
+    - center
+    - flex-start
+    - flex-end
+    - entre otros.
+
+Para poder ordenar los elementos podemos utilizar el "order: valor" y se ordenaran como tal.
+order= 0; = por default
+
+Podemos utilizar "flex-grow: valor" para dar tamaños a los espacios de contenido.
+flex-grow: 0; por default
+
+Tambien tenemos a "flex-basis: tamaño" para establecer tamaños fijos en px si es neccesario.
+"flex-basis: 250px;" por ejemplo

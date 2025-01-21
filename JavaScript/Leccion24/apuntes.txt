@@ -3,6 +3,9 @@ Tenemos datos del tipo string, numerico, boolean, etc.
 - Cuando estamos creando un objeto estamos asignado valor pero ahora es con ":" puntos.
 - Para preguntar un tipo de dato en las variables unicamente debemos utilizar "typeof".
 - Undefined se instancia de manera automatica cuando creamos una variable.
+- Siempre es de izquierda a derecha el tipo de datos, es decir, si en una variable primero se encuentra un
+  string, el resto se comportará como uno, si es number el resto también lo será. OJO, si hay () estos serán primero.
+  / Contexto string ó Contexto de cadena.
 
 - TIPO DE DATOS:
 var nombre = "Juan" / String
@@ -18,6 +21,12 @@ var objeto = {
     apellido: "Perez",
     telefono: 123456789
 }
+
+TIPOS DE DECLARACIONES
+var nombre = "", 1234...        /   NO UTILIZAR ESTE.
+let nombre = "", 1234...        /   PARA DEFINIR VARIABLES QUE PUEDEN CAMBIAR.
+const nombre = "", 1234...      /   PARA DEFINIR VARIABLES QUE NO PUEDEN CAMBIAR.
+
 
 - FUNCIONES:
 function nuevaFuncion(){}               / Función

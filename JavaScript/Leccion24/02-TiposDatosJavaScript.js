@@ -1,10 +1,10 @@
 // * TIPO NUMBER
-var numero = 2
-console.log(numero);
+// var numero = 2
+// console.log(numero);
 
 // * TIPO STRING
-var nombre = "Carlos";
-console.log(typeof nombre);
+// var nombre = "Carlos";
+// console.log(typeof nombre);
 
 // * TIPO NUMBER
 nombre = 21
@@ -56,3 +56,44 @@ console.log(typeof autos);
 
 var z = '';
 console.log(z);
+
+// * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+
+var nombre = 'Juan'
+var apellido = 'Perez'
+
+var nombreCompleto = nombre + " " + apellido
+console.log(nombreCompleto);
+
+var x = nombre + 219
+console.log(x);
+
+x = nombre + (2 + 2)
+console.log(x);
+
+x = 2 + 4 + nombre
+console.log(x);
+
+
+// * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+// DECLARACIÓN DE VARIABLES
+
+// ! MALA PRÁCTICA 👇🏼
+// nombre = "Juanito"
+// console.log(nombre2);
+// 
+// var nombre = "Juanito"
+// console.log(nombre);
+
+// * BUENA PRÁCTICA
+// OPC 1
+// let nombreDistinto
+// nombreDistinto = "Juanito"
+// 
+// OPC 2
+let nombreDistinto = "Juanito"
+console.log(nombreDistinto);
+
+// TIPO DE DATO CONSTANTE / NO PUEDE CAMBIAR.
+const apellidoNuevo = "Perez";
+// apellidoNuevo = "Peres"

@@ -1,0 +1,31 @@
+Tenemos datos del tipo string, numerico, boolean, etc.
+
+- Cuando estamos creando un objeto estamos asignado valor pero ahora es con ":" puntos.
+- Para preguntar un tipo de dato en las variables unicamente debemos utilizar "typeof".
+- Undefined se instancia de manera automatica cuando creamos una variable.
+
+- TIPO DE DATOS:
+var nombre = "Juan" / String
+var numero = 1000   / Number
+var bandera = true  / Objeto
+var simbolo = Symbol("hola");  / Symbol
+var x;              / undefined
+var y = null;       / null - del tipo Object
+var autos = ["","",] / Array - del tipo Object
+var z = '';         / Empty String - No hay valor.
+var objeto = {
+    nombre : "Juan",
+    apellido: "Perez",
+    telefono: 123456789
+}
+
+- FUNCIONES:
+function nuevaFuncion(){}               / Función
+class persona {                         / Función
+    constructor(nombre, apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+}
+
+* var = Para definir variable NO FIJA.

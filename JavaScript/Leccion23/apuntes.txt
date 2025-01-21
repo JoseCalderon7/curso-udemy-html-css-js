@@ -1,0 +1,3 @@
+Para poder asignar una variable empezamos con la sintaxis de 
+
+"var" seguido del nombre de la variable.

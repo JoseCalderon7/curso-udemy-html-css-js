@@ -1,5 +1,7 @@
 Tenemos datos del tipo string, numerico, boolean, etc.
 
+- Se puede definir variables variables en una misma línea (separamos con coma).
+- Cuando creamos una variable debemos utilizar CamelCase para el nombre de este.
 - Cuando estamos creando un objeto estamos asignado valor pero ahora es con ":" puntos.
 - Para preguntar un tipo de dato en las variables unicamente debemos utilizar "typeof".
 - Undefined se instancia de manera automatica cuando creamos una variable.

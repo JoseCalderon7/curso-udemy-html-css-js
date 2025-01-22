@@ -97,3 +97,10 @@ console.log(nombreDistinto);
 // TIPO DE DATO CONSTANTE / NO PUEDE CAMBIAR.
 const apellidoNuevo = "Perez";
 // apellidoNuevo = "Peres"
+
+
+// DEFINICIÓN EN UNA MISMA LÍNEA
+let e,i;
+e = 10, i = 20
+let w = e + i
+console.log(w);

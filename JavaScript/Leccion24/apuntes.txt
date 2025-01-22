@@ -1,5 +1,6 @@
 Tenemos datos del tipo string, numerico, boolean, etc.
 
+- JS es sensible con mayusculas y minusculas.
 - Se puede definir variables variables en una misma línea (separamos con coma).
 - Cuando creamos una variable debemos utilizar CamelCase para el nombre de este.
 - Cuando estamos creando un objeto estamos asignado valor pero ahora es con ":" puntos.

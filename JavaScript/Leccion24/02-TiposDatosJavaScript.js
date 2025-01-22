@@ -100,7 +100,16 @@ const apellidoNuevo = "Perez";
 
 
 // DEFINICIÓN EN UNA MISMA LÍNEA
-let e,i;
+let e, i;
 e = 10, i = 20
 let w = e + i
 console.log(w);
+
+// ! ERRORES
+// let 2nombres = "Juan"
+// arguments, aways, break, if, boolean, static, this, true etc.
+
+// * SOLUCIONES
+let $2nombres = "Juan"
+let _nombres = "Juan"
+let a1nombres = "Juan"

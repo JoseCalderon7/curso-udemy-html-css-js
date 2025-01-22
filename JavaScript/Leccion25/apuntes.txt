@@ -1,0 +1,4 @@
+Dentro de JS tenemos varias combinaciones en cuanto a calculos se tratase.
+
+- Existen varias operaciones en JS. (Suma, resta, multiplicación, división, entre otros más.)
+- 

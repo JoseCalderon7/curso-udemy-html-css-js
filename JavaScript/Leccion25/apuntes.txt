@@ -1,4 +1,5 @@
 Dentro de JS tenemos varias combinaciones en cuanto a calculos se tratase.
 
 - Existen varias operaciones en JS. (Suma, resta, multiplicación, división, entre otros más.)
-- 
+- Para cada problemática podemos utilizar las operaciones según corresponda para una solución adecuada.
+- Utilizar métodos para desarrollo, KISS (Keep It Simple, Stupid), DRY (Dont Repeat Yourself), entre otros.

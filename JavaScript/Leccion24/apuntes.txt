@@ -40,4 +40,6 @@ class persona {                         / Función
     }
 }
 
-* var = Para definir variable NO FIJA.
+* var = Para definir variable NO FIJA. (Se puede alterar)
+* let = Para definir una variable NO FIJA. (Se puede alterar)
+* const = Para definir una variable CONSTANTE (No se puede cambiar)

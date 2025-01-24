@@ -1,0 +1,17 @@
+Para utilizar if else debemos establecer una condición para poder saber los resultados.
+
+Estructura:
+if(condición){
+    // información
+}else if(condición){
+    // información
+}else if(condición){
+    // información
+}else{
+    // información
+}
+
+Existe el control con switch, el cual evaluamos de igual manera condicionales respectivamente.
+- Es necesario colocar el break ya que pueden haber problemas en los resultados obtenidos.
+- Debemos dejar un valor "default" para que no existan errores.
+- Para hacer múltiples condicionales en el switch debemos hacer el case 1, case 2, y su condición.

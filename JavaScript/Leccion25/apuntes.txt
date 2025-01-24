@@ -30,3 +30,7 @@ TERNARIOS: Se evaluan varios datos de forma limpia y eficiente.
 
 Estructura:
     - "instancia de la variable" = (condición) ? (PRIMERA SALIDA) : (SEGUNDA SALIDA);
+
+
+Para transformar variables de datos en su tipo como corresponda debemos llamar así:
+let edad = Number(variable2) // Se transformará el contenido.

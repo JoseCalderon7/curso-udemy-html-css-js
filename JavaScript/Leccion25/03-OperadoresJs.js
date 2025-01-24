@@ -62,3 +62,17 @@ console.log(z);
 
 z = (c + a) * b / c
 console.log(z);
+
+// * MANERAS DE APLICAR DE FORMA RÁPIDA LOS OPERADORES.
+a += 3; // a = a + 3
+console.log(a);
+
+a -= 2; // a = a + 3
+console.log(a);
+
+// * MÁS FORMATOS...
+// a *=
+// a %=
+// a /=
+// a **=
+

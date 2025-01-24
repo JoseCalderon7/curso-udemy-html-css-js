@@ -2,9 +2,31 @@ Dentro de JS tenemos varias combinaciones en cuanto a calculos se tratase.
 
 - Existen varias operaciones en JS. (Suma, resta, multiplicación, división, entre otros más.)
 - Al aumentar o disminuir un valor tenemos varias formas de realizarlo, esto es con Incremento y Decremento.
-- Las expreciones de leen de izquierda a derecha.
+- Para cada problemática podemos utilizar las operaciones según corresponda para una solución adecuada.
+- Utilizar métodos para desarrollo, KISS (Keep It Simple, Stupid), DRY (Dont Repeat Yourself), entre otros.
+- Las expresiones de leen de izquierda a derecha.
     - En los calculos existen operadores con mayor relevancia como tal, vale decir, mult, div, elevar, entre otros, serán primeros.
     - La primera expresión será la primera en evaluarse, y así con las otras.
     - Si utilizamos () parentesis estos serán evaluados primeros.
-- Para cada problemática podemos utilizar las operaciones según corresponda para una solución adecuada.
-- Utilizar métodos para desarrollo, KISS (Keep It Simple, Stupid), DRY (Dont Repeat Yourself), entre otros.
+- En los operadores si tenemos un AND si o sí debe cumplirse todo sino será false la respuesta.
+- En los operadores si tenemos un OR se puede cumplir lo uno o lo otro. Si uno es true todo va a devolver true.
+
+
+Si comparamos variables (==) se hace de manera estandar y sin importar el tipo de este.
+Si comparamos variables (===) se hace de manera más precisa, es decir, su formato también es evaluado.
+Si comparamos distintas variables (!=) se hace de manera estandar y sin importar el tipo de este.
+Si comparamos distintas variables (!==) se hace de manera más precisa, es decir, su formato también es evaluado.
+
+Mayor o igual que :  >= 
+Menor o igual que :  <=
+
+Operador "AND"
+Signo: &&
+
+Operador "OR"
+Signo: ||
+
+TERNARIOS: Se evaluan varios datos de forma limpia y eficiente.
+
+Estructura:
+    - "instancia de la variable" = (condición) ? (PRIMERA SALIDA) : (SEGUNDA SALIDA);

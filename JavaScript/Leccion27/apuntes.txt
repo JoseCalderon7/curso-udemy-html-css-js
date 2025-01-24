@@ -1,0 +1,27 @@
+- Los ciclos son importantes para iterar las veces que sean necesario hasta que sean verdaderas
+o finalmente devuelvan true.
+- Al utilizar break; este detiene el resto de ciclo como tal.
+- Continue se utiliza para continuar con la siguiente iteración como tal.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+While: Se repite hasta que cambie el valor a evaluar.
+Do-While: Se ejecuta al menos 1 vez el código, y luego se evalua con la condición.
+For: Se inicializa todo en el for (o la mayoría) luego se revisa la condición, se ejecuta código y se evalua respectivamente.
+
+ESTRUCTURAS
+
+While: Se evalua en primera instancia la condición.
+while (condition) {
+}
+
+Do-While: Se ejecuta 1 vez el código y luego de evalua la condición.
+do {
+    // Lineas de código + incremento o decremento.
+} while (condition);
+
+For: Se instancia la variable, luego la condición y al último el aumento o decremento.
+
+        (instancia)     (condición)     (incremento)
+for (let index = 0; index < array.length; index++) {
+    // Líneas de código | acciones
+}

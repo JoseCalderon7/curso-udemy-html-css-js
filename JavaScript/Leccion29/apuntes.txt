@@ -1,0 +1,16 @@
+Una función es un código reutilizable que podemos llamarlo cuantas veces queramos.
+
+- En JS tenemos una función interna llamada "Hoisting" el cual hace que podamos declarar
+  en cualquier parte del código nuestra función y este funcionará sin problemas.
+- Una función puede describirse como un objeto.
+- FUNCION ó MÉTODO = ES LO MISMO.
+
+ARGUMENTOS = Información de entrada con el que puede trabajar una función.
+
+ESTRUCTURA:
+function <nombreFuncion>(PARAMETROS, PARAMETROS){
+    return (calculos o variables.)   
+}
+
+// TIPO EXPRESIÓN
+let x = function(a, b){return a + b}

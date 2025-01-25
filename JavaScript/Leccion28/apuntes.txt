@@ -1,0 +1,21 @@
+Para un erreglo simplemente debemos de crear un listado entre corchetes e ir 
+añadiendo valores directamente.
+
+- Para iterarlos normalmenete utilizaríamos un for y lo podríamos recorrer sin problemas.
+
+¿CÓMO AGREGAR O MODIFICAR VALORES?
+- Podemos llamar el arreglo con la posición del contenido, seguido el cambio que queremos entre corchetes.
+- Al utilizar la función de "push" podemos añadir más elementos a nuestra lista.
+
+
+TENEMOS
+INDICES   (  0,      1,       2)
+ELEMENTOS ('BMW', 'Volvo', 'Toyota')
+
+Para saber si estamos trabajando con un arreglo escribimos:
+
+Array.isArray(autos)
+ó
+autos instanceof Array
+
+En ambos casos nos dirá true o false respectivamente.

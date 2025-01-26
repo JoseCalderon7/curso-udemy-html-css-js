@@ -4,6 +4,8 @@ Una función es un código reutilizable que podemos llamarlo cuantas veces quera
   en cualquier parte del código nuestra función y este funcionará sin problemas.
 - Una función puede describirse como un objeto.
 - FUNCION ó MÉTODO = ES LO MISMO.
+- Colocar a = 2, b = 1 Significa que dejamos un valor por default.
+- La cantidad de parametros no necesariamente debe coincidir con los argumentos enviados. (Se ignoran)
 
 ARGUMENTOS = Información de entrada con el que puede trabajar una función.
 
@@ -14,3 +16,9 @@ function <nombreFuncion>(PARAMETROS, PARAMETROS){
 
 // TIPO EXPRESIÓN
 let x = function(a, b){return a + b}
+
+// TIPO FLECHA
+const sumarFuncionTipoFlecha = (a, b) => a + b
+
+PARAMETROS = Variables que va a recibir la función. (a, b)
+ARGUMENTOS = Valores que se le asignan a los parametros. (1, 2)

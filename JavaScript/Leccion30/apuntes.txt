@@ -1,0 +1,6 @@
+PRIMITIVO = No contiene propediades (atributos) y tampoco métodos. / Valor individual
+
+OBJETOS:
+    - Puede obtener propediades (atributos)
+    - Puede obtener métodos
+    - Pueden ser referenciados

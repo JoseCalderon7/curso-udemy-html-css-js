@@ -4,3 +4,26 @@ OBJETOS:
     - Puede obtener propediades (atributos)
     - Puede obtener métodos
     - Pueden ser referenciados
+
+TIPS:
+* Para llamar una función se debe llamar los "()" para que estos funcionen.
+* Imprimir directamente en nuestro navegador en ocasiones veremos Object solamente y no el contenido.
+
+
+JSON.stringify = Notación de propiedad / valor. (Cada variable de nuestro objeto lo convierte a una cadena)
+
+~~~~~~~~~~~~~~~~~~~~~~ESTRUCTURAS~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PRIMITIVO:
+let x = 99;
+console.log(x);
+
+OBJETOS:
+let persona = {
+    nombre : "Juan",
+    apellido : "Perez",
+    edad : 48,
+    nombreCompleto : function () {
+        return this.nombre + ' ' + this.apellido + ' ' + this.edad
+    }
+}

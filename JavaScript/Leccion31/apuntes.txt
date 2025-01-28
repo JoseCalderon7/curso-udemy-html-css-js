@@ -1,0 +1,23 @@
+La CLASE tiene:
+* ATRIBUTOS
+* MÉTODOS
+
+FUNCIONES / UTILIDADES
+- No se aplica Hoisting (sólo en funciones)
+- Una CLASE es una plantilla.
+- Un objeto es una instancia de una Clase.
+- Los objetos obtienen sus propior valores.
+- NO ES NECESARIO colocar la palabra "funcion" en una CLASE
+
+~~~~~~~~~~~~~~~GET / SET~~~~~~~~~~~~~~~~~~
+Idealmente debemos 
+
+~~~~~~~~~~~~~~~~HERENCIA~~~~~~~~~~~~~~~~~~
+Utilidad: Sirve para heredar funcionalidades/caracteristicas de una clase superior.
+
+Sobreescritura: Podemos utilizar métodos y agregarles más funcionalidades en las clases hijas.
+    //* SOBREESCRITURA
+    nombreCompleto() {
+        // return this._nombre + ' ' + this._apellido + ', ' + this._departamento
+        return super.nombreCompleto() + ', ' + this._departamento
+    }

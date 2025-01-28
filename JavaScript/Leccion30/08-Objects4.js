@@ -8,12 +8,12 @@ function Persona(nombre, apellido, email) {
         }
 }
 
+//OBJETO PADRE
 let padre = new Persona('Juan', 'Perez', 'j.perez@gmail.com')
-
 console.log(padre);
 
+//OBJETO MADRE
 let madre = new Persona('Laura', 'Martez', 'l.martez@gmail,com')
-
 console.log(madre.nombreCompleto());
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -8,7 +8,9 @@ OBJETOS:
 TIPS:
 * Para llamar una función se debe llamar los "()" para que estos funcionen.
 * Imprimir directamente en nuestro navegador en ocasiones veremos Object solamente y no el contenido.
-
+* Podemos llamar métodos sin problemas entre objetos con ".call" respectivamente.
+* Utilizar "this" es solamente cuando es una propiedad interna, y cuando queremos utilizar el parametro se
+  llama sin el this como tal.
 
 JSON.stringify = Notación de propiedad / valor. (Cada variable de nuestro objeto lo convierte a una cadena)
 
@@ -26,6 +28,34 @@ let persona = {
     nombreCompleto : function () {
         return this.nombre + ' ' + this.apellido + ' ' + this.edad
     }
+}
+
+- OBJETO CON "get" y "set"
+let persona3 = {
+    //COLECCIÓN DE PROPIEDADES DE NUESTRO OBJETO
+    nombre : "Juan",
+    apellido : "Perez",
+    edad : 48,
+    idioma : 'es',
+    get lang(){
+        return this.idioma.toUpperCase()
+    },
+    set lang(lang){
+        this.idioma = lang.toUpperCase()
+    },
+    get nombreCompleto() {
+        return this.nombre + ' ' + this.apellido + ' ' + this.edad
+    }
+}
+
+CONTRUCTOR DE OBJETO:
+function Persona(nombre, apellido, email) {
+    this.nombre = nombre,
+        this.apellido = apellido,
+        this.email = email,
+        this.nombreCompleto = function () {
+            return this.nombre + ' ' + this.apellido
+        }
 }
 
 ~~~~~~~~~~~~~~~~~~~~~~CONSTRUCTORES~~~~~~~~~~~~~~~~~~~~~~~~~

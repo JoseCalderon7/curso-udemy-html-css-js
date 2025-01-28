@@ -27,3 +27,12 @@ let persona = {
         return this.nombre + ' ' + this.apellido + ' ' + this.edad
     }
 }
+
+~~~~~~~~~~~~~~~~~~~~~~CONSTRUCTORES~~~~~~~~~~~~~~~~~~~~~~~~~
+Un constructor es una funcion especial para trabajar con objetos en JS.
+
+this (propiedad) = (parametro)
+
+- Cada vez que creamos un nuevo objeto lo llamamos con "new" y el nombre del constructor.
+- El nombre del parametro es igual al atributo.
+- this = nos ayuda a trabajar con las propiedades del objeto.

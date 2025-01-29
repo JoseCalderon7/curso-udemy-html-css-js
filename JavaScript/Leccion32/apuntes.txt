@@ -1,0 +1,12 @@
+STATIC
+- Sirve únicamente para establecer como propio los métodos de nuestras clases.
+- Se asocia unicamente con la clase, y no con los objetos que se vayan a crear.
+
+TIPS:
+- Para llamar a static dentro de la clase para iterar, no debemos hacerlo apartir del
+  atributo, sino que debemos llamarlo como la Clase predominante. Método estático.
+
+RECORDAR:
+- Los atributos ESTÁTICOS se vinculan a nuestra CLASE.
+- Los atributos NOMALES se vinculan a los OBJETOS.
+- Cuando se establece un GET y SET no es necesario llamar la función con parentesis.

@@ -110,3 +110,6 @@ console.log(cliente2.toString());
 let cliente3 = new Cliente('Esteban', 'Paez', 31, new Date())
 console.log(cliente3.toString());
 
+// Ejercicio completado y modificado para que sean valores de ID
+// autoincrementables, logicas de clases, herencia, polimorfismo aplicado
+// en este ejercicio.

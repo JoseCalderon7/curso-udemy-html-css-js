@@ -1,0 +1,11 @@
+RECORDAMOS: Si utilizamos una variable en JS y no la declaramos no nos mostrará error alguno.
+
+Modo Strict para evitar malas prácticas.
+
+Con este modo podemos evitar utilizar variables que no hayan sido inicializadas de manera correcta,
+añadiendo mayor peso, calidad y orden en nuestro código con JS.
+
+~~~~~~~~~~~~~~~ FUNCIONES ~~~~~~~~~~~~~~~~~
+Se puede añadir al inicio de nuestro código para que sea de manera global las restricciones.
+ó
+Podemos agregar "use strict" dentro de nuestra función para solamente sea en ese bloque.

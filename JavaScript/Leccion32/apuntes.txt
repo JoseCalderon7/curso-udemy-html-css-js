@@ -8,5 +8,5 @@ TIPS:
 
 RECORDAR:
 - Los atributos ESTÁTICOS se vinculan a nuestra CLASE.
-- Los atributos NOMALES se vinculan a los OBJETOS.
+- Los atributos NORMALES se vinculan a los OBJETOS.
 - Cuando se establece un GET y SET no es necesario llamar la función con parentesis.

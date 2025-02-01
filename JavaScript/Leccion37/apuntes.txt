@@ -1,0 +1,41 @@
+Para poder sobre escribir salidas de texto podemos hacerlo de la siguiente manera.
+
+1- Primero declarar nuestras funciones en la clase "PADRE"
+    EJ: obtenerDetalles(){
+            return `Empleado - Nombre: ${this.nombre} | Sueldo: $${this.sueldo}`
+        }
+
+2- Una vez la clase "HIJA" hereda a su padre podemos sobreescribir sus funciones.
+    EJ: obtenerDetalles(){
+            return `Gerente: ${super.obtenerDetalles()} | Departamente: ${this.departamento}`
+        } 
+
+Final: Finalmente para utilizar los mismos valores de la clase padre podemos llamarlo como
+se muestra en el ejemplo más arriba. Es de suma importacia utilizarlo de esta manera para que así
+ahorremos código, no se repita y sea visiblemente más entendible.
+
+UNICAMENTE con el llamado de "super" nosotros podemos acceder a la clase padre, sino,
+solamente llamaremos lo que esté contenido en la clase hija.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~ POLIMORFISMO ~~~~~~~~~~~~~~~~~~~~~~~~~~
+Significado: Multiples formas.
+
+Ej: Llamar un método de la clase PADRE o de la clase HIJA.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~ SALIDAS "instanceof" ~~~~~~~~~~~~~~~~~~~~~~~~
+Si llamamos a nuestra clase hija dentro de un condicional este nos retornará a su padre
+de igual manera, ya que, la clase hija extiende a su padre por ende es parte de esa super clase.
+
+Si llamamos unicamente a la clase Padre este no arrojará solo este ya que no depende de otro
+para poder ser visualizado.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~ ORDEN ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ELEGIR CLASES DE MAYOR JERARQUIA.
+
+EJEMPLO:
+HIJA - PADRE - OBJECT
+
+De esta forma podemos evaluar su tipo con "instanceof" respectivamente.

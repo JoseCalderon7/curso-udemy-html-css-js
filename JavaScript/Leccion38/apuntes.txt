@@ -1,0 +1,15 @@
+try (throw) - catch - *finally
+Función: Podemos trabajar por bloques para que no se caiga nuestro sistema, con ello,
+podemos capturar el error, mostrarlo y el código completo seguirá funcionando.
+
+Ejemplos de uso:
+Varibles, funciones, valores, entre otros "MAL" definidos.
+
+TRY = Intenta
+    THROW = Arroja el error.
+CATCH = Atrapa
+FINALLY = Ejecuta
+
+Utilidad: Es de mucha ayuda para podemos visualizar errores o cuando pasamos cierto tipo
+de datos y no corresponden al tipo. Es de suma importancia de vez en cuando hacer uso de este
+y hacer todo un proceso filtrado en cada cambio.

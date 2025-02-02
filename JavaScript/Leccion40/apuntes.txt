@@ -1,0 +1,32 @@
+FUNCIÓN CALLBACK / LLAMAR DE VUELTA
+
+Se le llama función callback debido a que otra función cualquiera sea esta llama a
+nuestra función dentro de su parametro, vale decir, para no volver a rehacer todo,
+simplemente llama a la función ya existente. (Se vuelve a llamar nuestra función)
+
+EJEMPLO BÁSICO DE USO:
+
+function imprimir(mensaje){
+    console.log(mensaje);
+}
+
+function sumar(opc1, opc2, funcionCallback){
+    let res = opc1 + opc2;
+    funcionCallback(`Resultado de la suma: ${res}`)
+}
+
+sumar(1,2, imprimir)
+
+
+~~~~~~~~~~~~~~~ LLAMADAS ASÍNCRONAS ~~~~~~~~~~~~~~~
+Uso: Sirve para poder establecer tiempos de ejecucción y especificar qué queremos ejecutar.
+Además, se puede hacer llamados mediante callback para poder hacer más fuerte nuestro código.
+
+EJEMPLO:
+function miFuncionCallback(){
+    console.log("Saludo asíncrono pasado 3 segundos.");
+}
+
+setTimeout(miFuncionCallback, 3000) 
+setTimeout(function (){console.log("Segunda salida pasado 6 segundos.");}, 6000)
+setTimeout( () => console.log("Saludo asíncrono pasado 10 segundos."), 1000);

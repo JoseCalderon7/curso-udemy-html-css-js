@@ -1,0 +1,18 @@
+FUNCIONES FLECHA
+
+CUIDADO: Para este tipo de funciones no se aplica el hoisting, vale decir, no podemos
+llamar la función antes que hayamos creado la función como tal.
+
+Se crea de la siguiente manera:
+1. Colocamos el tipo de variable
+2. El nombre de la función en variable
+3. Signo igual + paréntesis(parametros) + => + {} + resto del código
+
+Para llamar objetos debes hacer lo siguiente:
+const regresarObjeto = () => ({nombre: "Carlos", apellido : "Santana", edad: 24 })
+
+
+En general las funciones del tipo flecha viene para reemplazar las llamadas de funciones
+tradicionales, en este caso más directas claras con una mejor interpretación.
+Ahora bien, debemos tener claro que no se aplica hoisting como tal, y debemos llamar las 
+funciones flecha cuando sea una vez instanciado anteriormente.

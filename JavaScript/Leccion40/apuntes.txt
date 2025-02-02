@@ -30,3 +30,23 @@ function miFuncionCallback(){
 setTimeout(miFuncionCallback, 3000) 
 setTimeout(function (){console.log("Segunda salida pasado 6 segundos.");}, 6000)
 setTimeout( () => console.log("Saludo asíncrono pasado 10 segundos."), 1000);
+
+
+~~~~~~~~~~~~~~~~~~~~~ DEFINICIONES ~~~~~~~~~~~~~~~~~~~~~
+
+ASINCRONO : Ambas funciones están trabajando al mismo tiempo y por separado
+SINCRONO  : La función 1 llama a la funcion 2, la funcion 1 no seguirá ejecutandose
+            hasta que la funcion 2 termine de ejecutarse.
+
+
+setInterval : Manda a llamar la funcion varias veces en el tiempo.
+
+ejemplo:
+let reloj = () => {
+    let fecha = new Date()
+    console.log(`${fecha.getHours()}:${fecha.getMinutes()}:${fecha.getSeconds()}`);
+}
+
+setInterval(reloj, 1000)
+
+En este caso se ejecutará cada 1 segundo nuestra función realizada anteriormente.

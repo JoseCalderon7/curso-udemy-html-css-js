@@ -1,0 +1,69 @@
+Las promesas o "promise" se utilizan mediante los callbacks vistos anteriormente.
+Cuando se lanza una promesa tenemos el camino cuando es correcto "resolved - then()"
+e incorrecto "rejected - .catch()".
+
+- Normalmente se omite el manejo de error en los parámetros.
+
+ASYNC = INDICA QUE UNA FUNCIÓN REGRESA UNA PROMESA.
+AWAIT = ESPERA EL RESULTADO DE UNA PROMESA. (sólo se puede usar dentro de una función async)
+
+En teoría, utilizar async y await es mucho mejor para llamar fuera de la función las acciones
+o cambios que se han realizado. Simplemente llamamos la función y luego debería ejecutarse con normalidad
+sin necesidad de llamar el .then() y el .catch respectivamente.
+
+AWAIT = Todo lo que viene después del await debe esperar a que este termine de ejecutarse
+        y luego el resto se ejecuta como tal.
+
+
+~~~~~~~~~~~~~~~ FORMA BASE DE UNA PROMESA ~~~~~~~~~~~~~~~~~~
+let miPromesa = new Promise((resolver, rechazar) => {
+    let expresion = true;
+    if(expresion){
+        resolver('Resolución correcta.')
+    } else{
+        rechazar('Existe un error.')
+    }
+});
+
+
+//* FORMAS DE LLAMAR LAS PROMESAS. 
+miPromesa.then(
+    valor => console.log(valor),
+    error => console.log(error) 
+)
+
+miPromesa
+.then(valor => console.log(valor))
+.catch(error => console.log(error))
+
+
+
+~~~~~~~~~~~~~~~ FORMA BASE DE UNA PROMESA ASÍNCRONA ~~~~~~~~~~~~~~~~~~
+
+//* LLAMADO DE PROMESA ASÍNCRONA
+let promesa = new Promise((resolver) => {
+    console.log("Inicio promesa."); //se ejecuta antes que el timeout
+    setTimeout( () => resolver('Saludo con promesa y timeout'), 3000)
+    console.log("Fin promesa."); //se ejecuta antes que el timeout
+})
+
+promesa.then(valor => console.log(valor));
+
+
+~~~~~~~~~~~~~~~ ASYNC / AWAIT / setTimeout ~~~~~~~~~~~~~~~~~~
+
+Forma más limpia de trabajar en nuestro código, legible y preciso.
+
+ESTRUCTURA arrow:
+new Object/Promise((parámetros) => {contenido/logs})
+
+async function funcionConPromesaAwaitTimeout() {
+    console.log('Inicio promesa');
+    let miPromesa = new Promise(hola => {
+        setTimeout(() => hola('Promesa con await y timeout'), 5000)
+    })
+    console.log(await miPromesa);
+    console.log('Fin promesa');
+}
+
+funcionConPromesaAwaitTimeout() 

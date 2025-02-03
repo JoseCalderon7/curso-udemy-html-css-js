@@ -1,0 +1,10 @@
+DOM: El DOM es un estandar y cada elemento del HTML es un OBJETO cuando se trabaja desde JavaScript.
+     Cada Elemento(etiqueta) es un Objeto en JS. / Podemos eleminar, crear, manipular, etc.
+
+document."obtenemos el elemento()".innerHTML = En sí nos recupera el contenido de la etiqueta.
+
+getElementBy = Es para recuperar los objetos del HTML / Etiquetas como tal.
+
+getElementsByClassName = CLASES
+getElementsById        = ID
+getElementsByTagName   = ETIQUETAS HTML (div, p, h1, h2, etc.)

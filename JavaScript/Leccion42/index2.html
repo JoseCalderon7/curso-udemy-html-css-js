@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM</title>
+</head>
+<body>
+    <h1 id="cabezera">Titular Inicial</h1>
+    <p>Saludos a todos.</p>
+    <p>Adiós a todos.</p>
+    <script>
+        // PARA RECUPERAR TODOS LOS PARRAFOS QUE TIENEN EL ELEMENTO "p"
+        let parrafos = document.getElementsByTagName('p')
+        console.log(`Número de parrafos: ${parrafos.length}`);
+        for (let i = 0; i < parrafos.length; i++) {
+            console.log(`Número ${i}: ` + parrafos[i].innerHTML);
+        }
+    </script>
+</body>
+</html>

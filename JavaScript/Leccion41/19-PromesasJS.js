@@ -57,4 +57,4 @@ async function funcionConPromesaAwaitTimeout() {
     console.log('Fin promesa');
 }
 
-funcionConPromesaAwaitTimeout() 
+funcionConPromesaAwaitTimeout()

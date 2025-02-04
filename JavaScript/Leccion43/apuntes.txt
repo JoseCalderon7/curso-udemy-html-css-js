@@ -1,0 +1,21 @@
+onclick="" = Para especificar eventos. / Llamada directa con JS "no recomendado".
+
+
+ESTRUCTURA:
+
+ETIQUETA   |    FUNCIÓN (OBJETO / this) | RESTO DE LA LÍNEA
+<h1 onclick="cambiarTexto(this)">Manejo del DOM en JavaScript</h1>
+
+
+FORMA DE LLAMAR FUNCIÓN CON JavaScript:
+    <script>
+        // LLAMADA DE LA FUNCIÓN CON CALLBACK
+        // FUNCIÓN
+        let cambiarTexto = () => {
+            document.getElementById('mostrar').innerHTML = 'Nuevo contenido.'
+        }
+
+        // LLAMADO
+        document.getElementById('titulo').onclick = cambiarTexto;
+        
+    </script>

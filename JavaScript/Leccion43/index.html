@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM en JavaScript</title>
+</head>
+<body>
+    <!--! NO RECOMENDADO <h1 onclick="this.innerHTML='Nuevo titular'">Manejo del DOM en JavaScript</h1> -->
+    <h1 onclick="cambiarTexto(this)">Manejo del DOM en JavaScript</h1>
+    <br>
+    <script>
+        let cambiarTexto = (titulo) => {
+            // this = Apunta directamente a la etiqueta.
+            console.log(titulo);
+            console.log(titulo.innerHTML);
+            titulo.innerHTML = 'Nuevo titular de la página'
+            console.log(titulo.innerHTML);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM en JavaScript</title>
+</head>
+<body>
+    <!--* FORMAS PARA MODIFICAR LOS ESTILOS -->
+    <h1 id="titulo">Manejo del DOM en JavaScript</h1>
+    <button onclick="mostrar()">Mostrar</button>
+    <br>
+    <script>
+        // FORMA PARA MODIFICAR LOS ELEMENTOS DE NUESTRO HTML.
+        document.getElementById('titulo').style.color = 'red'
+        let mostrar = () => {
+            document.getElementById('titulo').style.color = 'green'
+        }
+    </script>
+</body>
+</html>

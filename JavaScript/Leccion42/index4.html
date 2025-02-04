@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuertSelectorAll en JavaScript</title>
+</head>
+<body>
+    <h1 class='azul'>Ejemplo DOM con JavaScript</h1>
+    <p class='azul'>Saludos!</p>
+    <p class='azul'>Otro parrafo</p>
+    <script>
+        let elementos = document.querySelectorAll('p.azul');
+        console.log( `~~~~~ Número de elementos: ${elementos.length} ~~~~~`);
+        // PARA RECORRER ARREGLOS. (of)
+        for(let elemento of elementos){
+            console.log(`${elemento.innerHTML}`);
+        }
+    </script>
+</body>
+</html>

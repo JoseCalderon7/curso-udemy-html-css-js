@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM en JavaScript</title>
+</head>
+<body>
+    <!--* FORMAS PARA MODIFICAR LOS ELEMENTOS EN HTML CON JAVASCRIPT -->
+    <h1 id="titulo">Manejo del DOM en JavaScript</h1>
+    <button onclick="mostrar()">Mostrar</button>
+    <br>
+    <script>
+        // FORMA PARA MODIFICAR LOS ELEMENTOS DE NUESTRO HTML.
+        let mostrar = () => {
+            document.getElementById('titulo').innerHTML += '<br> Nuevo título.'
+        }
+    </script>
+</body>
+</html>

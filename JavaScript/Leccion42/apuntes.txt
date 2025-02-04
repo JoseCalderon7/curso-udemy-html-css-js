@@ -3,8 +3,23 @@ DOM: El DOM es un estandar y cada elemento del HTML es un OBJETO cuando se traba
 
 document."obtenemos el elemento()".innerHTML = En sí nos recupera el contenido de la etiqueta.
 
-getElementBy = Es para recuperar los objetos del HTML / Etiquetas como tal.
+getElementBy           = Es para recuperar los objetos del HTML / Etiquetas como tal.
+     getElementsByClassName = CLASES
+     getElementsById        = ID
+     getElementsByTagName   = ETIQUETAS HTML (div, p, h1, h2, etc.)
 
-getElementsByClassName = CLASES
-getElementsById        = ID
-getElementsByTagName   = ETIQUETAS HTML (div, p, h1, h2, etc.)
+     querySelectorAll       = ETIQUETA (HTML) Y CLASES (estilos)
+
+document.forms["id"]   = PARA LLAMAR EL FORMS COMPLETO
+
+OJO: document.write("Saludos desde JS.") Puede sobreescribir todo nuestro contenido.
+
+
+~~~~~~~~~~~ CAMBIAR COLOR ~~~~~~~~~~~~~
+document.getElementById('titulo').style.color = 'red'
+
+~~~~~~~~~~~ CAMBIAR URL ~~~~~~~~~~~~~
+document.getElementById('imagen').src = "./imagenes/html5.png"
+
+~~~~~~~~~~~ CAMBIAR TEXTO ~~~~~~~~~~~~~
+document.getElementById('titulo').innerHTML += '<br> Nuevo título.'

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM en JavaScript</title>
+</head>
+<body onload="entrar()">
+    <h1 id="titulo">Manejo del DOM en JavaScript</h1>
+    <br>
+    <div id="mostrar"></div>
+    <script>
+        // PARA EJECUTAR CÓDIGO AL TERMINAR DE CARGAR EL SITIO Y VERIFICAR COOKIES ACTIVAS.
+        let entrar = () => {
+            alert("Entrando a la pagina web.")
+            let texto = ''
+            if(navigator.cookieEnabled){
+                texto = 'Cookies habilitadas.'
+            }else{
+                texto = 'Cookies Inhabilitadas.'
+            }
+            document.getElementById('mostrar').innerHTML = texto
+        }   
+    </script>
+</body>
+</html>

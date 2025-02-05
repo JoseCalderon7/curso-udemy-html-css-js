@@ -1,5 +1,6 @@
 onclick="" = Para especificar eventos. / Llamada directa con JS "no recomendado".
 
+<body onload="entrar()"> = Se ejecuta cuando termina de cargar la página.
 
 ESTRUCTURA:
 
@@ -19,3 +20,38 @@ FORMA DE LLAMAR FUNCIÓN CON JavaScript:
         document.getElementById('titulo').onclick = cambiarTexto;
         
     </script>
+
+
+
+onchange="convertir(this)" = Para cambiar la forma de los valores internos de un input.
+
+~~~~~~~~~~~~~~ FORMAS DE MANIPULAR CAMBIOS ~~~~~~~~~~~~~~
+
+onclick="" = Para especificar eventos. / Llamada directa con JS "no recomendado".
+onmouseover="rojo(this)" onmouseout="verde(this)" = Para hacer cambios una vez pasamos el mouse sobre el título.
+onmouseup="rojo(this)" onmousedown="verde(this)"  = Para que al agarrar y soltar cambien los valores.
+
+
+~~~~~~~~~~~~~~ ONFOCUS / ONBLUR ~~~~~~~~~~~~~~
+onfocus="cambiar(this)" onblur="regresar(this)" = Para enfocar y desenfocar campos input.
+
+
+~~~~~~~~~~~~~~ addEventListener ~~~~~~~~~~~~~~
+addEventListener = Para agregar 1 o más eventos. / EJ: 'focus', 'blur', 'click', etc.
+
+
+~~~~~~~~~~~~~~ DELEGACION DE EVENTO / UseCapture ~~~~~~~~~~~~~~
+UTILIDAD = Sirve para programar los cambios de la forma más externa a la más interna.
+<script>
+    // DELEGACIÓN DE EVENTO.
+    const forma = document.getElementById("formulario");
+
+    forma.addEventListener("focus", (evento) => {
+    evento.target.style.background = "red";
+    }, true);
+
+    forma.addEventListener("blur", (regresar) => {
+    regresar.target.style.background = "blue";
+    }, true);
+    
+</script>

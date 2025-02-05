@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manejo del DOM en JavaScript -onmouse</title>
+  </head>
+  <body>
+    <h1 id="titulo">Manejo del DOM en JavaScript</h1>
+    <br />
+    <form id="formulario">
+      Nombre: <input type="text" id="nombre" /> <br /><br />
+      Apellido: <input type="text" id="apellido" />
+      <br />
+    </form>
+    <script>
+        // DELEGACIÓN DE EVENTO.
+      const forma = document.getElementById("formulario");
+
+      forma.addEventListener("focus", (evento) => {
+        evento.target.style.background = "red";
+      }, true);
+      forma.addEventListener("blur", (regresar) => {
+        regresar.target.style.background = "blue";
+      }, true);
+    </script>
+  </body>
+</html>

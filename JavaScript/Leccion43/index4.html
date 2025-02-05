@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manejo del DOM en JavaScript</title>
+  </head>
+  <body>
+    <h1 id="titulo" onmouseover="rojo(this)" onmouseout="verde(this)">Manejo del DOM en JavaScript</h1>
+    <br />
+    <!--* EL TIPO (this) REFERENCIA A TODA LA ETIQUETA. -->
+    Nombre: <input type="text" onchange="convertir(this)" />
+    
+    <script>
+      let convertir = (nombreInput) => {
+        // let nombre = document.getElementById('nombre') | FORMA TRADICIONAL.
+        nombreInput.value = nombreInput.value.toUpperCase()
+      };
+
+      let rojo = (titulo) => {
+        titulo.style.color = 'red'
+      }
+
+      let verde = (titulo) => {
+        titulo.style.color = 'green'
+      }
+
+    </script>
+  </body>
+</html>

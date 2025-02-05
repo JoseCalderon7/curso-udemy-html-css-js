@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manejo del DOM en JavaScript -onmouse</title>
+  </head>
+  <body>
+    <h1 id="titulo">Manejo del DOM en JavaScript</h1>
+    <br />
+    Nombre: <input type="text" id="nombre">
+    <br>
+    Apellido: <input type="text" id="apellido">
+    <br>    
+    <script>
+        // NO ES NECESARIO LLAMAR A EJECUTAR LA FUNCIÓN YA QUE ES DE TIPO CALLBACK.
+        // FUNCIÓN FLECHA ES ÚNICA. NO SE PUEDE REUTILIZAR.
+      document.getElementById('nombre').addEventListener('focus', (evento) => {
+        evento.target.style.background = 'red'
+      })
+      document.getElementById('nombre').addEventListener('blur', (regresar) => {
+        regresar.target.style.background = 'blue'
+      })
+
+      document.getElementById('apellido').addEventListener('focus', cambiar)
+      document.getElementById('apellido').addEventListener('blur', regresar)
+      
+      function cambiar(evento){
+        // ES IGUAL AL (this)
+        let componente = evento.target
+        componente.style.background = 'green'
+      }
+      function regresar(evento){
+        evento.target.style.background = 'white'
+      }
+    </script>
+  </body>
+</html>

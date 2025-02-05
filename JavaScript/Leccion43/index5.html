@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manejo del DOM en JavaScript -onmouse</title>
+  </head>
+  <body>
+    <h1
+      id="titulo"
+      onmouseup="rojo(this)"
+      onmousedown="verde(this)"
+      onclick="azul(this)"
+    >
+      Manejo del DOM en JavaScript
+    </h1>
+    <br />
+
+    <script>
+      let rojo = (titulo) => {
+        titulo.style.color = "red";
+      };
+
+      let verde = (titulo) => {
+        titulo.style.color = "green";
+      };
+
+      function azul(title) {
+        titulo.style.color = "blue";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=restart_alt"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Calculadora</h1>
+      <form action="get" class="flip-horizontal-bottom">
+        <label for="number" name="numeroUno">
+            <h2>Valor 1</h2>
+          <input id="valor1" type="number" name="numeroUno" value="" oninput="limitarDigitos(this, 5)" />
+        </label>
+        <label for="number" name="numeroDos">
+            <h2>Valor 2</h2>
+          <input id="valor2" type="number" name="numeroDos" value="" oninput="limitarDigitos(this, 5)" />
+        </label>
+        <div id="resultado"></div>
+    </form>
+      <div id="operaciones">
+        <button id="sumar" onclick="sumar()">Sumar</button>
+        <button id="restar" onclick="restar()">Restar</button>
+        <button id="dividir" onclick="dividir()">Dividir</button>
+        <button id="multiplicar" onclick="multiplicar()">Multiplicar</button>
+        <button id="limpiar" onclick="limpiar()">
+            <span class="material-symbols-outlined">restart_alt</span>
+        </button>
+      </div>
+    </main>
+
+    <script src="js/javascript.js"></script>
+  </body>
+</html>

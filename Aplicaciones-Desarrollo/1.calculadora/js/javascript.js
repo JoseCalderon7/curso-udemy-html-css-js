@@ -6,51 +6,66 @@ let limitarDigitos = (elemento, maxDigitos) =>{
 
 // FUNCIÓN SUMAR
 function sumar() {
-    const num1 = +document.getElementById('valor1').value
-    const num2 = +document.getElementById('valor2').value
-    
-    let suma = num1 + num2
-    document.getElementById('resultado').innerHTML = suma
-    console.log(`Resultado por consola: ${suma}`);
 
+    const num1 = parseInt(document.getElementById('valor1').value)
+    const num2 = parseInt(document.getElementById('valor2').value)
+
+    if(isNaN(num1) || isNaN(num2)){
+        document.getElementById('result').innerHTML = "<em>ERROR<em/>"  
+    }else{
+        let suma = num1 + num2
+        document.getElementById('result').innerHTML = suma
+        console.log(`Resultado por consola: ${suma}`);
+    }
 }
 
 // FUNCIÓN RESTAR
 function restar() {
-    const num1 = +document.getElementById('valor1').value
-    const num2 = +document.getElementById('valor2').value
-    
-    let restar = num1 - num2
-    document.getElementById('resultado').innerHTML = restar
 
-    console.log(`Resultado por consola: ${restar}`);
+    const num1 = parseInt(document.getElementById('valor1').value)
+    const num2 = parseInt(document.getElementById('valor2').value)
+
+    if(isNaN(num1) || isNaN(num2)){
+        document.getElementById('result').innerHTML = "<em>ERROR<em/>"  
+    }else{
+        let restar = num1 - num2
+        document.getElementById('result').innerHTML = restar
+        console.log(`Resultado por consola: ${restar}`);
+    }
 }
 
 // FUNCIÓN DIVIDIR
 function dividir() {
-    const num1 = +document.getElementById('valor1').value
-    const num2 = +document.getElementById('valor2').value
-    
-    let dividir = num1 / num2
-    document.getElementById('resultado').innerHTML = dividir
 
-    console.log(`Resultado por consola: ${dividir}`);
+    const num1 = parseInt(document.getElementById('valor1').value)
+    const num2 = parseInt(document.getElementById('valor2').value)
+
+    if(isNaN(num1) || isNaN(num2)){
+        document.getElementById('result').innerHTML = "<em>ERROR<em/>"  
+    }else{
+        let dividir = num1 / num2
+        document.getElementById('result').innerHTML = parseFloat(dividir.toFixed(2))
+        console.log(`Resultado por consola: ${dividir}`);
+    }
 }
 
 // FUNCIÓN MULTIPLICAR
 function multiplicar() {
-    const num1 = +document.getElementById('valor1').value
-    const num2 = +document.getElementById('valor2').value
-    
-    let multiplicar = num1 * num2
-    document.getElementById('resultado').innerHTML = multiplicar
 
-    console.log(`Resultado por consola: ${dividir}`);
+    const num1 = parseInt(document.getElementById('valor1').value)
+    const num2 = parseInt(document.getElementById('valor2').value)
+
+    if(isNaN(num1) || isNaN(num2)){
+        document.getElementById('result').innerHTML = "<em>ERROR<em/>"  
+    }else{
+        let multiplicar = num1 * num2
+        document.getElementById('result').innerHTML = multiplicar
+        console.log(`Resultado por consola: ${multiplicar}`);
+    }
 }
 
 function limpiar(){
     document.getElementById("valor1").value = "";
     document.getElementById("valor2").value = "";
-    document.getElementById("resultado").textContent = "";
-    
+    document.getElementById("result").textContent = "";
 }

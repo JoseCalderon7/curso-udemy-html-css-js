@@ -1,6 +1,6 @@
 En este caso hacemos una calculadora básica para poder realizar ciertas operaciones.
 
 Falta lo siguiente:
-- Diseñar apartado del resultado.
-- Validar que estén ambos números para poder realizar las operaciones.
-- Hacerlo responsive.
+- Diseñar apartado del resultado. / LISTO
+- Validar que estén ambos números para poder realizar las operaciones. / LISTO
+- Hacerlo responsive. / FALTA...

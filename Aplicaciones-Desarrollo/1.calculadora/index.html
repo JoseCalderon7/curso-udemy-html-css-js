@@ -16,13 +16,15 @@
       <form action="get" class="flip-horizontal-bottom">
         <label for="number" name="numeroUno">
             <h2>Valor 1</h2>
-          <input id="valor1" type="number" name="numeroUno" value="" oninput="limitarDigitos(this, 5)" />
+          <input id="valor1" type="number" name="numeroUno" value="" oninput="limitarDigitos(this, 4)" />
         </label>
         <label for="number" name="numeroDos">
             <h2>Valor 2</h2>
-          <input id="valor2" type="number" name="numeroDos" value="" oninput="limitarDigitos(this, 5)" />
+          <input id="valor2" type="number" name="numeroDos" value="" oninput="limitarDigitos(this, 4)" />
         </label>
-        <div id="resultado"></div>
+        <div id="resultado">
+          <span id="result"></span>
+        </div>
     </form>
       <div id="operaciones">
         <button id="sumar" onclick="sumar()">Sumar</button>

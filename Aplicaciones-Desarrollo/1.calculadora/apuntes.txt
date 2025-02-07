@@ -3,4 +3,4 @@ En este caso hacemos una calculadora básica para poder realizar ciertas operaci
 Falta lo siguiente:
 - Diseñar apartado del resultado. / LISTO
 - Validar que estén ambos números para poder realizar las operaciones. / LISTO
-- Hacerlo responsive. / FALTA...
+- Hacerlo responsive. / FALTA POR AGREGAR ESTO.

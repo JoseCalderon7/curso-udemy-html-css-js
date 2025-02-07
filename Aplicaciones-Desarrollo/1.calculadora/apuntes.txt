@@ -3,4 +3,8 @@ En este caso hacemos una calculadora básica para poder realizar ciertas operaci
 Falta lo siguiente:
 - Diseñar apartado del resultado. / LISTO
 - Validar que estén ambos números para poder realizar las operaciones. / LISTO
-- Hacerlo responsive. / FALTA POR AGREGAR ESTO.
+- Hacerlo responsive. / TERMINADO A MEDIAS, ES MÁS FACIL TRABAJAR CON TAILWIND CSS (Me acomoda más.)
+
+META CON ESTE PROYECTO:
+* Reacerlo con algún framework y subirlo a la web. (GitHub pages)
+* Utilizar tailwind CSS y Astro para poder hacer este diseño.

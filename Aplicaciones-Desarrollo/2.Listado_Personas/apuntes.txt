@@ -1,0 +1,7 @@
+Para esta problematica la forma correcta de hacer el ingreso de personas en lista era
+mediante la creacion de clases, y ahí poder crear y listar las clases correspondientes.
+
+Por motivos de tiempo este no será diseñado para forma desponsive, además, me he dado cuenta
+que tailwind CSS es una muy buena base para aplicar diseño responsive de manera senciall
+y no tan compleja, faltaría practicar un poco con boostrap desde un inicio para aplicar
+diseños.

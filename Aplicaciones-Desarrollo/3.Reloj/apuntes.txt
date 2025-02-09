@@ -1,0 +1,10 @@
+Para este ejercicio reloj no fue de mucho problema realizarlo, ahora bien, para poder
+setear valores adicionales a la hora tales como la fecha me apoyé con el video para 
+finalmente lograrlo.
+
+Nuevamente, por temas de tiempo no se le hará diseño responsive al reloj, pese a ello
+el diseño quedó simple y elegante, con limpieza en el código y claro pese a todo.
+
+Comentarios: Sientos que estos ejercicios básicos con javascript me poner a prueba si
+realmente pude entender la sintaxis y cómo podría resolver los problemas que se
+presentan en estos escenarios.

@@ -8,3 +8,6 @@ el diseño quedó simple y elegante, con limpieza en el código y claro pese a t
 Comentarios: Sientos que estos ejercicios básicos con javascript me poner a prueba si
 realmente pude entender la sintaxis y cómo podría resolver los problemas que se
 presentan en estos escenarios.
+
+Adicional a los avances es posible hacerlo todo dentro de la misma estructura HTML
+pero por tenas de orden queda mas ordenado en su propia hoja el codigo JS.

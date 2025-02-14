@@ -4,7 +4,7 @@ class Dato{
         this._valor = valor
     }
     get descripcion(){
-        return this.descripcion
+        return this._descripcion
     }
     set descripcion(descripcion){
         this._descripcion = descripcion
